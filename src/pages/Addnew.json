@@ -1,0 +1,32 @@
+[
+    {
+        "text":"text",
+        "placeholder":"Dish name",
+        "name":"name"
+    },
+    {
+        "text":"text",
+        "placeholder":"Ingredients",
+        "name": "Ingredients"       
+    },
+    {
+        "text":"text",
+        "placeholder":"Instriction",
+        "name":"Instriction"       
+    },
+    {
+        "text":"text",
+        "placeholder":"Time to prepare",
+        "name":"Time Taken"
+    },
+    {
+        "text":"text",
+        "placeholder":"palce image url",
+        "name":"imgUrl"        
+    },
+    {
+        "text":"text",
+        "placeholder":"Place Viedo Link",
+        "name": "VideoLink"       
+    }
+]

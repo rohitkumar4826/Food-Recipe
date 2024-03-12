@@ -1,0 +1,1 @@
+export const getServingTime = () => Math.floor((Math.random()*30)+15);

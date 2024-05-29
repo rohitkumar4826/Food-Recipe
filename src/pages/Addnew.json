@@ -1,32 +1,32 @@
 [
-    {
+    {   "key":"1",
         "text":"text",
         "placeholder":"Dish name",
-        "name":"name"
+        "name":"dish"
     },
-    {
+    {   "key":"2",
         "text":"text",
         "placeholder":"Ingredients",
-        "name": "Ingredients"       
+        "name": "ingredients"       
     },
-    {
+    {   "key":"3",
         "text":"text",
-        "placeholder":"Instriction",
-        "name":"Instriction"       
+        "placeholder":"Instruction",
+        "name":"instruction"       
     },
-    {
+    {   "key":"4",
         "text":"text",
         "placeholder":"Time to prepare",
-        "name":"Time Taken"
+        "name":"time"
     },
-    {
+    {   "key":"5",
         "text":"text",
-        "placeholder":"palce image url",
-        "name":"imgUrl"        
+        "placeholder":"place image url",
+        "name":"img_url"        
     },
-    {
+    {   "key":"6",
         "text":"text",
-        "placeholder":"Place Viedo Link",
-        "name": "VideoLink"       
+        "placeholder":"Place Video Link",
+        "name": "video_url"       
     }
 ]

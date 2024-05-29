@@ -4,7 +4,9 @@ import RecipeCard from "../components/RecipeCard";
 
 function Saved() {
   // STATES AND VARIABLES
-  const [savedRecipe, setSavedRecipe] = useState(JSON.parse(localStorage.getItem("savedRecipe")) || []);
+  const [savedRecipe, setSavedRecipe] = useState(
+    JSON.parse(localStorage.getItem("savedRecipe")) || []
+  );
 
   // FUNCTIONS
   function isPresent(recipe) {
@@ -42,14 +44,17 @@ function Saved() {
         Saved Recipes...
       </h1>
       <div className="flex flex-wrap justify-start items-center p-2 px-0 sm:px-20 bg-green-200">
-        {savedRecipe.length >  0 ?
+        {savedRecipe.length > 0 ? (
           savedRecipe.map((item) => (
             <RecipeCard
               key={item.idMeal}
               {...item}
               handleSavedRecipes={handleSavedRecipes}
             />
-          )) : <div> Explore more. Go to Home Page</div>}
+          ))
+        ) : (
+          <div> Explore more. Go to Home Page</div>
+        )}
       </div>
     </>
   );
